@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.container{
+position:relative;
+width: 100%;
+height:100%;
+margin:50px auto;}
+h2{
+    font-family: 'Varela Round', sans-serif; 
+    margin-bottom:20px;
+
+
+}
+.form-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+
+}
+input{
+    margin-bottom:20px;
+    font-size:1.1rem;
+    line-height: 1;  
+      transition: all 0.6s ;
+}
+
+
+    
+.input-fields{
+    font-family: 'Varela Round', sans-serif; 
+    width:350px;
+    height:50px;
+    border-radius: 8px;
+    border: 2px solid #ced4da;
+    padding-left: 20px;
+    position:relative;
+
+}
+.btn-login {
+    font-family: 'Varela Round', sans-serif;
+    background-color:rgb(71, 179, 71);
+    border:1px solid white;
+    color:white;
+    border-radius: 12px;
+    height:55px;
+    width:96px;
+    font-size:20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top:8px;
+
+}
+input:hover{
+    border-color: greenyellow;
+}
+input:focus {
+    outline: none;
+}
+
+.btn-login:hover{
+    transform: scale(1.2);
+    background-color: rgb(70, 255, 169);
+
+}
+.btn-login:focus{
+    outline: none;
+
+}
+::placeholder {
+
+    color: #ced4da;
+    font-family: 'Varela Round', sans-serif; 
+    padding-left: 20px;
+
+      }
+      .forget-pass{
+        font-family: 'Varela Round', sans-serif; 
+        font-size:12px;
+        margin-bottom: 10px;
+      }
+      a{
+text-decoration: none;  
+transition: all 0.6s;
+    }
+    a:hover{
+        color:rgb(53, 184, 53);
+    }
+    a:active{
+        color:rgb(7, 85, 175);
+    }
+    .sing-up{
+        font-family: 'Varela Round', sans-serif; 
+        font-size:16px;
+        margin-bottom: 10px;    }
+    .gender{
+        margin-bottom:10px;
+    }
+    option{
+        font-size:20px;
+        cursor:pointer;
+    }
+    option:focus{
+        outline: none;
+    }
+    option:hover{
+        background-color: dodgerblue;
+    }
+   .alert {
+        color:rgb(245, 40, 40);
+        font-family: 'Varela Round', sans-serif; 
+        background-color: antiquewhite;
+        width:346px;
+        margin-bottom: 20px;
+        padding-left:8px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .fas{
+        position:absolute;
+        top:100px;
+    }
+    .message{
+        color:rgb(3, 65, 3);
+        font-family: 'Varela Round', sans-serif; 
+        background-color :rgb(164, 245, 164);
+        width:346px;
+        margin-bottom: 20px;
+        padding-left:8px;
+        border-radius: 6px;
+    }
+    .navbar-brand > span {
+        font-size:50px ;
+    }
+    .navbar-brand span:first-child{
+        font-family: 'Varela Round', sans-serif;
+        color:rgb(100, 99, 99) ;
+
+    }
+    .navbar-brand span:last-child{
+        font-family: 'Varela Round', sans-serif; 
+        color:dodgerblue;
+
+    }
+     .btn-outline-primary{
+        font-family: 'Varela Round', sans-serif; 
+
+    }
+    .navbar-nav{
+        font-family: 'Varela Round', sans-serif;
+        font-size: 20px;
+ 
+
+    }
+    .container{
+     height:5px;
+    }
+    .parametres{
+        margin-left:70px;
+        font-family: 'Varela Round', sans-serif; 
+        height:50px;
+        background:none;
+        outline: none;
+        border: none;
+    }
