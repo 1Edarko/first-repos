@@ -1,0 +1,121 @@
+body{
+    background-color: beige;
+    /* font-family: 'Varela Round', sans-serif;  */
+
+}
+.container{
+    background-color: white;
+    margin:0 auto;
+    max-width: 800px;
+    font-family: 'Varela Round', sans-serif; 
+
+
+}
+h1{
+    font-family: 'Varela Round', sans-serif; 
+text-align: center;
+}
+h2{
+    font-family: 'Varela Round', sans-serif; 
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}
+.created{
+    color:#bbb;
+}
+.tb {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0 auto;
+
+
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding:10px;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .edit{
+      background-color: dodgerblue;
+      color: white;
+      font-family: 'Varela Round', sans-serif;
+height: 30px;
+width:65px;
+cursor: pointer;
+border:none;
+border-radius: 3px;
+transition: all 0.3s ease-in-out;
+
+
+  }
+  .dlt{
+    background-color: rgb(223, 57, 57);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+height: 30px;
+width:65px;
+cursor: pointer;
+border:none;
+border-radius: 3px;
+transition: all 0.3s ease-in-out;
+
+  }
+  .edit:hover{
+      background-color: rgb(118, 179, 240);
+      transform: scale(1.3);
+  }
+  .dlt:hover{
+    background-color: rgb(241, 129, 129);
+    transform: scale(1.3);
+
+}
+.add{
+    background-color: dodgerblue;
+      color: white;
+      font-family: 'Varela Round', sans-serif;
+cursor: pointer;
+border:none;
+height:40px;
+margin:40px auto;
+border-radius: 3px;
+transition: all 0.3s ease-in-out;
+
+}
+.add:hover{
+    background-color: rgb(118, 179, 240);
+    transform: scale(1.2);
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+    margin: 5px 10px 5px 0;
+
+
+}
+input[type='text']{
+    width:700px;
+    height:40px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #bbb;
+
+}
+input:hover{
+    border-color: dodgerblue;
+}
+textarea {
+    width:700px
+}

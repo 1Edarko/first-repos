@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "Dialog prompt"
+AuthType Basic
+AuthUserFile \xampp\htdocs\App\admin\.htpasswd
+Require valid-user
