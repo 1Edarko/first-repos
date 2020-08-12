@@ -25,6 +25,8 @@ Body
 
 </label>
 <button  name='edit'class='add'><i class="fas fa-edit"></i>Edit</button>
+<input type="hidden" name="id" value="<?php echo $fpage['id'];?>"/>
+
 </form>
 
 <?php include( VIEW_ROOT .'\templates\footer.php' );?>
